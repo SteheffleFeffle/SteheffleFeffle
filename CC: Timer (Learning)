@@ -1,0 +1,13 @@
+t = 0
+
+term.clear()
+term.setCursorPos(11,10)
+
+print("Please set timer duration: ")
+
+x = read()
+sleep(.2)
+term.clear()
+term.setCursorPos(5,10)
+
+print("Timer duration set at "..x.." seconds.")
